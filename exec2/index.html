@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.png" type="image/x-icon" />
+  </head>
+  <body id="body">
+    <h1 class="title">Verificaor de Idades</h1>
+    <div class="container">
+      <div class="year">
+        <h2>Ano de Nascimento:</h2>
+        <input type="number" id="yearInput" placeholder="Ex: 1990" />
+      </div>
+      <div class="sex-cont">
+        <h2>Sexo:</h2>
+        <form>
+          <input type="radio" id="male" name="grupo_opcoes" value="male" />
+          <label for="male">Masculino</label>
+
+          <input type="radio" id="female" name="grupo_opcoes" value="female" />
+          <label for="female">Feminino</label>
+        </form>
+      </div>
+      <div class="button">
+        <input type="button" value="Verificar" id="checkButton" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
