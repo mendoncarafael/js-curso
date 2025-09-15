@@ -8,22 +8,31 @@
     <link rel="icon" href="icon.png" type="image/x-icon" />
   </head>
   <body id="body">
-    <h1 class="title">Verificaor de Idades</h1>
-    <div class="container">
+    <h1 class="title">Verificador de Idades</h1>
+    <div class="container" id="imgCont">
       <div class="year">
         <h2>Ano de Nascimento:</h2>
         <input type="number" id="yearInput" placeholder="Ex: 1990" />
       </div>
       <div class="sex-cont">
         <h2>Sexo:</h2>
-        <form>
-          <input type="radio" id="male" name="grupo_opcoes" value="male" />
+        <form id="check">
+          <input type="radio" id="sexM" name="grupo_opcoes" value="Masculino" />
           <label for="male">Masculino</label>
 
-          <input type="radio" id="female" name="grupo_opcoes" value="female" />
+          <input type="radio" id="sexF" name="grupo_opcoes" value="Feminino" />
           <label for="female">Feminino</label>
         </form>
       </div>
+
+        <div class="text-cont">
+          <p id="result">Resultado</p>
+        </div>
+
+      <div class="img-cont">
+        <img src="image/adultaF.jpeg" alt="" id="image">
+      </div>
+
       <div class="button">
         <input type="button" value="Verificar" id="checkButton" />
       </div>
