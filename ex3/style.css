@@ -13,24 +13,29 @@ body {
 .container {
   background-color: aliceblue;
   width: 60%;
-  height: 280px; /* ALTERAR PARA 340PX QUANDO VERIFICAR */
+  height: auto; /* ALTERAR PARA 340PX QUANDO VERIFICAR */
   color: black;
   margin: auto;
   border-radius: 10px;
-   transition: height 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
 }
 
 .sub-cont {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .spr {
-    padding: 10px;
+  padding: 10px;
 }
 
-.sub-cont .btn{
-    margin-top: 20px;
-    width: 120px;
+.sub-cont .btn {
+  margin-top: 20px;
+  width: 120px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
 }

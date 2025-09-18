@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #126799;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  background-color: aliceblue;
+  width: 30%;
+  height: auto; /* ALTERAR PARA 340PX QUANDO VERIFICAR */
+  color: black;
+  margin: auto;
+  border-radius: 10px;
+  transition: height 0.3s ease-in-out;
+}
+
+.sub-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sub-cont .btn {
+  margin-top: 20px;
+  width: 120px;
+}
+
+.sel {
+  width: 240px;
+  background-color: aquamarine;
+  margin-top: 10px;
+}
+
+.sel select {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+#end {
+  width: 120px;
+  margin-top: 10px;
+}
